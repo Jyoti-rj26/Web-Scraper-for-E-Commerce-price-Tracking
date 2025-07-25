@@ -1,0 +1,23 @@
+
+---
+
+## 📦 `requirements.txt`
+
+
+---
+
+## ⚙️ `config.py`
+
+```python
+# config.py
+
+URL = 'https://example.com/product'  # Replace with real product URL
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+}
+
+SELECTORS = {
+    "title": {"tag": "h1", "class": "product-title"},
+    "price": {"tag": "span", "class": "price-tag"}
+}
